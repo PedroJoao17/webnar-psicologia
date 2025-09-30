@@ -1,26 +1,79 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f8f9fb;
 }
 
-.hero img {
-    max-height: 500px;
-    object-fit: cover;
+.home-color {
+    background-color: #2F834B;
+    color: #fff;
 }
 
-.card {
-    border-radius: 1rem;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+.sobre-color {
+    background-color: #8456b1;
+    color: #fff;
+}
+
+.parti-entre-color {
+    background-color: #ffd308;
+    color: #fff;
+}
+
+nav img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
     cursor: pointer;
+    font-weight: 600;
 }
 
-.card-small {
-    width: 16rem;
-    background: #ffffff;
+nav {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-.card-large {
-    width: 20rem;
-    background: #eef1ff;
+.event-date {
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
 }
 
+.speaker-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
+
+button a {
+    text-decoration: none;
+    color: #2F834B;
+    font-weight: bold;
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #f1f1f1;
+}
