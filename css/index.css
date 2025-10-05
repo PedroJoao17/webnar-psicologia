@@ -12,11 +12,6 @@ body {
     color: #fff;
 }
 
-.parti-entre-color {
-    background-color: #ffd308;
-    color: #fff;
-}
-
 nav img {
     height: 50px;
 }
@@ -52,14 +47,6 @@ nav {
     text-align: center;
 }
 
-.speaker-img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border: 4px solid #fff;
-    border-radius: 50%;
-}
-
 button a {
     text-decoration: none;
     color: #2F834B;
@@ -76,4 +63,36 @@ button {
 
 button:hover {
     background-color: #f1f1f1;
+}
+
+.speaker-img {
+    width: 160px;
+    /* tamanho fixo */
+    height: 210px;
+    /* quadrado */
+    object-fit: cover;
+    /* corta e centraliza a imagem */
+    border-radius: 50%;
+    /* deixa circular (opcional) */
+    border: 3px solid rgba(255, 255, 255, 0.4);
+    /* borda sutil */
+    background-color: #fff;
+    /* fundo branco se a imagem tiver transparência */
+}
+
+#convidados h4 {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 6px;
+    padding: 0.25rem 0.75rem;
+}
+
+.parti-color {
+    background: #B57EDC;
+    color: #FFFFFF;
+
+}
+
+.inscricao-color {
+    background-color: #4a90e2; /* Azul bebê / suave */
+    color: #ffffff;
 }
